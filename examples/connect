@@ -7,7 +7,7 @@ client = Api({debug: true, url: 'https://localhost:4040/admin/api/jsonrpc', inse
 async = require('async')
 
 async.series([
-/*	function init_set_hostname(callback){
+	function init_set_hostname(callback){
 		client.Init.setHostname(
 			{hostname: 'host-name'},
 			(res) => {
@@ -42,7 +42,7 @@ async.series([
 				callback()
 			}
 		)
-	},*/
+	},
 	function login(callback) {
 		client.Session.login (
 			{userName: 'Admin', password: 'password', application: {'name': "", 'vendor': "", 'version': ""}},

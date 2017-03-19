@@ -17,8 +17,8 @@
     "async": ">2.1.0"
   },
   "scripts": {
-    "test-operator": "./test-operator.js",
-    "test-connect": "./test-connect.js"
+    "test-operator": "./examples/operator",
+    "test-connect": "./examples/connect"
   },
   "author": "",
   "license": "MIT"
