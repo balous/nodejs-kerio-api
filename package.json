@@ -1,0 +1,25 @@
+{
+  "name": "kerio-api",
+  "version": "0.0.2",
+  "description": "Module for accessing json-rpc api of Kerio products.",
+  "main": "lib/kerio-api.js",
+  "author": "Petr Baloun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balous/nodejs-kerio-api"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async": ">2.1.0"
+  },
+  "scripts": {
+    "test-operator": "./test-operator.js",
+    "test-connect": "./test-connect.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -7,7 +7,7 @@ client = Api({debug: true, url: 'https://localhost:4021/admin/api/jsonrpc/', ins
 async = require('async')
 
 async.series([
-	function activate(callback){
+/*	function activate(callback){
 		client.ProductActivation.activate(
 			{
 				adminPassword: "password",
@@ -25,7 +25,7 @@ async.series([
 				callback()
 			}
 		)
-	},
+	},*/
 	function login(callback) {
 		client.Session.login (
 			{userName: 'Admin', password: 'password', application: {'name': "", 'vendor': "", 'version': ""}},
